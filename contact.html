@@ -1,7 +1,70 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Tell Royal Bridges about your move to the UAE and the relocation support you need."><title>Plan Your UAE Move | Royal Bridges Relocation</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head><body>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tell Royal Bridges about your move to Abu Dhabi, Dubai or elsewhere in the UAE. Explore relocation planning, homes, schools, business, moving and settling-in support.">
+<title>Plan Your UAE Move | Royal Bridges Relocation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">RB</span><span>ROYAL BRIDGES<small>RELOCATION</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="services.html">Our Services</a><a href="index.html#how">How It Works</a><a href="index.html#about">About</a><a class="nav-cta active" href="contact.html">Plan Your Move</a></nav></header>
-<main><section class="page-hero contact-hero"><p class="eyebrow light">YOUR MOVE STARTS HERE</p><h1>Let's talk about<br><em>your plans for the UAE.</em></h1><p>Share a little about your move. The more we understand, the more relevant the next steps can be.</p></section>
-<section class="contact-layout"><div class="contact-aside"><p class="eyebrow">A GOOD PLACE TO BEGIN</p><h2>Every move is different.</h2><p>Whether you're still exploring or already have a move date, tell us what you know so far. It's fine to leave questions blank if you haven't decided yet.</p><div class="aside-rule"></div><p class="small-note">This enquiry form is an initial planning template. Secure submission and CRM connection will be configured as a separate integration before accepting live customer data.</p></div>
-<form class="enquiry-form" id="relocationForm"><div class="form-title"><span>RELOCATION ENQUIRY</span><small>INITIAL DETAILS</small></div><div class="form-grid"><label>Full name<input name="name" required autocomplete="name" placeholder="Your name"></label><label>Email address<input name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label><label>Phone / WhatsApp<input name="phone" autocomplete="tel" placeholder="Include country code"></label><label>Where are you moving from?<input name="origin" placeholder="Country or city"></label><label>Preferred UAE destination<select name="destination"><option value="">Please select</option><option>Abu Dhabi</option><option>Dubai</option><option>Sharjah</option><option>Other / not decided</option></select></label><label>Who is relocating?<select name="travellers"><option value="">Please select</option><option>Just me</option><option>Couple</option><option>Family with children</option><option>Business / employees</option><option>Other</option></select></label><label>Expected move date<input name="date" type="date"></label><label>Current planning stage<select name="stage"><option value="">Please select</option><option>Researching options</option><option>Planning a move</option><option>Move date confirmed</option><option>Already in the UAE</option></select></label></div><fieldset><legend>What support are you interested in?</legend><div class="check-grid"><label><input type="checkbox" name="support" value="Relocation planning"> Relocation planning</label><label><input type="checkbox" name="support" value="Accommodation"> Accommodation</label><label><input type="checkbox" name="support" value="Schools and family"> Schools & family</label><label><input type="checkbox" name="support" value="Visa information"> Visa information</label><label><input type="checkbox" name="support" value="Business relocation"> Business relocation</label><label><input type="checkbox" name="support" value="Moving and settling in"> Moving & settling in</label><label><input type="checkbox" name="support" value="Banking and utilities"> Banking & utilities</label><label><input type="checkbox" name="support" value="Other"> Other</label></div></fieldset><label>Tell us a little more<textarea name="message" rows="5" placeholder="Your priorities, questions, number of family members, timing…"></textarea></label><label class="consent"><input type="checkbox" required> I agree that the information above may be used to respond to this enquiry.</label><button class="btn btn-dark" type="submit">Prepare my enquiry</button><p class="form-status" id="formStatus" role="status">Preview only — this form is not yet connected to a live inbox or CRM.</p></form></section></main>
-<footer class="footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">RB</span><span>ROYAL BRIDGES<small>RELOCATION</small></span></a><p>Relocation support for life and business in the UAE.</p><div><a href="services.html">Services</a><a href="index.html">Home</a></div><small>© <span id="year"></span> Royal Bridges. All rights reserved.</small></footer><script src="script.js"></script></body></html>
+<main>
+<section class="page-hero contact-hero"><p class="eyebrow light">YOUR MOVE STARTS HERE</p><h1>Let's plan<br><em>your next chapter.</em></h1><p>Tell us as much as you can about your move. Select the support you need and we can use your answers to shape a practical relocation plan.</p></section>
+<section class="contact-layout">
+<div class="contact-aside"><p class="eyebrow">A GOOD PLACE TO BEGIN</p><h2>Every move is different.</h2><p>This questionnaire covers the main things people and families need to consider when moving to the UAE. You can leave anything blank if you have not decided yet.</p><div class="aside-rule"></div><p class="small-note">This form currently prepares an enquiry summary on your device. It does not transmit or store personal information and is not yet connected to the live CRM. Please do not include passport numbers, bank details or other sensitive identity information.</p><div class="aside-rule"></div><p><strong>Need help deciding?</strong></p><p>Start with your destination, expected timing and the services that matter most. We can work through the remaining details with you.</p></div>
+<form class="enquiry-form" id="relocationForm">
+<div class="form-title"><span>UAE RELOCATION QUESTIONNAIRE</span><small>INITIAL ENQUIRY</small></div>
+<h3>1. Your contact details</h3>
+<div class="form-grid">
+<label>Full name<input name="Full name" required autocomplete="name" placeholder="Your name"></label>
+<label>Email address<input name="Email" type="email" required autocomplete="email" placeholder="you@example.com"></label>
+<label>Phone / WhatsApp<input name="Phone / WhatsApp" autocomplete="tel" placeholder="Include country code"></label>
+<label>Best way to contact you<select name="Preferred contact"><option value="">Please select</option><option>Email</option><option>Phone call</option><option>WhatsApp</option></select></label>
+</div>
+<h3>2. Your move</h3>
+<div class="form-grid">
+<label>Where are you moving from?<input name="Moving from" placeholder="Country or city"></label>
+<label>Preferred UAE destination<select name="UAE destination"><option value="">Please select</option><option>Abu Dhabi</option><option>Dubai</option><option>Sharjah</option><option>Ras Al Khaimah</option><option>Ajman</option><option>Fujairah</option><option>Umm Al Quwain</option><option>Not decided</option></select></label>
+<label>Expected move date<input name="Expected move date" type="date"></label>
+<label>Current planning stage<select name="Planning stage"><option value="">Please select</option><option>Just researching</option><option>Planning within 3–6 months</option><option>Planning within 1–3 months</option><option>Move date confirmed</option><option>Already in the UAE</option></select></label>
+<label>Who is relocating?<select name="Who is relocating"><option value="">Please select</option><option>Just me</option><option>Couple</option><option>Family with children</option><option>Business owner / founder</option><option>Employee / business team</option><option>Other</option></select></label>
+<label>Number of adults<input name="Number of adults" type="number" min="0" placeholder="e.g. 2"></label>
+<label>Number of children<input name="Number of children" type="number" min="0" placeholder="e.g. 2"></label>
+<label>Children's ages (if applicable)<input name="Children ages" placeholder="e.g. 5 and 9"></label>
+<label>Are you bringing pets?<select name="Pets"><option value="">Please select</option><option>No</option><option>Yes — dog(s)</option><option>Yes — cat(s)</option><option>Yes — other</option><option>Not sure yet</option></select></label>
+</div>
+<h3>3. Accommodation and lifestyle</h3>
+<div class="form-grid">
+<label>Accommodation needed<select name="Accommodation type"><option value="">Please select</option><option>Apartment</option><option>Villa</option><option>Townhouse</option><option>Temporary / short stay</option><option>Serviced accommodation</option><option>Not required</option><option>Not sure</option></select></label>
+<label>Bedrooms required<select name="Bedrooms"><option value="">Please select</option><option>Studio</option><option>1 bedroom</option><option>2 bedrooms</option><option>3 bedrooms</option><option>4+ bedrooms</option><option>Flexible</option></select></label>
+<label>Preferred areas<input name="Preferred areas" placeholder="e.g. Yas Island, Saadiyat, Al Reem"></label>
+<label>Monthly / annual housing budget<input name="Housing budget" placeholder="AED and whether monthly or annual"></label>
+<label>School or nursery support needed?<select name="School support"><option value="">Please select</option><option>Yes</option><option>No</option><option>Possibly / need advice</option></select></label>
+<label>Employment or business situation<select name="Employment or business"><option value="">Please select</option><option>Employed with offer</option><option>Seeking employment</option><option>Starting / relocating a business</option><option>Remote worker</option><option>Retired</option><option>Other / prefer to discuss</option></select></label>
+</div>
+<fieldset><legend>4. Which services would you like help with?</legend><div class="check-grid">
+<label><input type="checkbox" name="support" value="Relocation planning and move coordination"> Relocation planning and move coordination</label>
+<label><input type="checkbox" name="support" value="Visa and residency process information"> Visa and residency process information</label>
+<label><input type="checkbox" name="support" value="Company formation and business setup introductions"> Company formation and business setup</label>
+<label><input type="checkbox" name="support" value="Property search and accommodation"> Property search and accommodation</label>
+<label><input type="checkbox" name="support" value="School and nursery research"> School and nursery research</label>
+<label><input type="checkbox" name="support" value="International moving and shipping"> International moving and shipping</label>
+<label><input type="checkbox" name="support" value="Storage, packing and unpacking"> Storage, packing and unpacking</label>
+<label><input type="checkbox" name="support" value="Pet relocation"> Pet relocation</label>
+<label><input type="checkbox" name="support" value="Banking and utilities guidance"> Banking and utilities guidance</label>
+<label><input type="checkbox" name="support" value="Driving, transport and local orientation"> Driving, transport and local orientation</label>
+<label><input type="checkbox" name="support" value="Healthcare and insurance provider introductions"> Healthcare and insurance introductions</label>
+<label><input type="checkbox" name="support" value="Cleaning, maintenance and home services"> Cleaning, maintenance and home services</label>
+<label><input type="checkbox" name="support" value="Employee and family relocation"> Employee and family relocation</label>
+<label><input type="checkbox" name="support" value="Other support"> Other support</label>
+</div></fieldset>
+<h3>5. Anything else we should know?</h3>
+<label>Tell us about your priorities, questions or particular circumstances<textarea name="Additional information" rows="5" placeholder="For example: preferred school curriculum, work location, accessibility needs, shipping requirements or anything you would like us to understand."></textarea></label>
+<label class="consent"><input type="checkbox" name="Consent" value="Yes" required> I confirm that the information provided is accurate and agree that Royal Bridges may use it to respond to this enquiry.</label>
+<button class="btn btn-dark" type="submit">Prepare my enquiry summary</button>
+<p class="form-status" id="formStatus" role="status">Your answers will be compiled into a file on this device. Nothing is sent to Royal Bridges yet.</p>
+</form></section></main>
+<footer class="footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">RB</span><span>ROYAL BRIDGES<small>RELOCATION</small></span></a><p>Relocation support for life and business in the UAE.</p><div><a href="services.html">Services</a><a href="index.html">Home</a></div><small>© <span id="year"></span> Royal Bridges. All rights reserved.</small></footer>
+<script src="script.js"></script></body></html>
